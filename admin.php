@@ -32,7 +32,7 @@
             $_SESSION["name"] = 'Admin';
             $_SESSION["key"] ='admin';
             $_SESSION["email"] = $email;
-            header("location:dashboard.php?q=0");
+            header("location:admin_dashboard.php?q=0");
         }
         else
         {

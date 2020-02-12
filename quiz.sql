@@ -38,9 +38,7 @@ CREATE TABLE `answer` (
 CREATE TABLE `questions` (
   `eid` text NOT NULL,
   `qid` text NOT NULL,
-  `qns` text NOT NULL,
-  `choice` int(10) NOT NULL,
-  `sn` int(11) NOT NULL
+  `qa` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
